@@ -1,0 +1,219 @@
+/* Reset default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling for the body */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background: #f4f4f4;
+}
+
+/* Header styling */
+header {
+    background: #282c34;
+    color: #fff;
+    padding: 20px 0;
+    border-bottom: 4px solid #61dafb;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+header h1 {
+    font-size: 28px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav a {
+    color: #61dafb;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Section styling */
+section {
+    padding: 60px 20px;
+}
+
+section#home {
+    background: url('https://source.unsplash.com/1600x900/?technology,code') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+}
+
+section#home .profile-img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 20px auto;
+}
+
+section#home h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+section#home p {
+    font-size: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background: rgba(173, 216, 230, 0.8); /* Light blue background with transparency */
+    color: #000; /* Text color for contrast */
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Subtle shadow effect */
+    line-height: 1.6;
+    text-align: left; /* Align text to left */
+}
+
+section#about {
+    background: #fff;
+    color: #333;
+}
+
+section#about .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section#about h2 {
+    font-size: 32px;
+    color: #282c34;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+section#about p {
+    font-size: 18px;
+    margin: 15px 0;
+    line-height: 1.6;
+}
+
+/* About, Projects, Skills, Contact sections */
+section {
+    background: #fff;
+}
+
+section h2 {
+    font-size: 32px;
+    color: #282c34;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #61dafb;
+}
+
+/* Contact section */
+section#contact {
+    background: #282c34;
+    color: #fff;
+    padding: 60px 20px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 18px;
+    color: #333;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+form textarea {
+    resize: vertical;
+}
+
+form button {
+    background: #61dafb;
+    color: #fff;
+    border: none;
+    padding: 15px 20px;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #4fa3c5;
+}
+
+/* Social links styling */
+.social-links {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-links a {
+    color: #fff;
+    font-size: 24px;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    color: #61dafb;
+}
+
+/* Footer styling */
+footer {
+    background: #282c34;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    border-top: 4px solid #61dafb;
+}
